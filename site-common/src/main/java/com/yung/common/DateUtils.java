@@ -137,7 +137,6 @@ public class DateUtils {
 	/**
 	 * 取与指定时间间隔若干天的时间
 	 *
-	 * @param date
 	 * @param offset
 	 * @return
 	 */
@@ -170,7 +169,6 @@ public class DateUtils {
 	/**
 	 * 取与指定时间间隔若干小时的时间
 	 *
-	 * @param date
 	 * @param offset
 	 * @return
 	 */
@@ -190,7 +188,6 @@ public class DateUtils {
 	/**
 	 * 取与指定时间间隔若干分钟的时间
 	 *
-	 * @param date
 	 * @param offset
 	 * @return
 	 */
@@ -224,7 +221,6 @@ public class DateUtils {
 	/**
 	 * 取与指定时间间隔若干秒的时间
 	 *
-	 * @param date
 	 * @param offset
 	 * @return dateTime
 	 */
@@ -256,7 +252,6 @@ public class DateUtils {
 	/**
 	 * 取与指定时间间隔若干秒的时间
 	 *
-	 * @param date
 	 * @param offset
 	 * @return date
 	 */
@@ -351,7 +346,7 @@ public class DateUtils {
 	/**
 	 * 取得指定日期(格式为：2012-07-05 14:23:30 )
 	 *
-	 * @param Date
+	 * @param
 	 *            date 指定的日期
 	 * @return String
 	 */
@@ -362,7 +357,7 @@ public class DateUtils {
 	/**
 	 * 取得指定日期(格式为：2012-07-05 14:23:30 )
 	 *
-	 * @param Date
+	 * @param
 	 *            date 指定的日期
 	 * @return String
 	 */
@@ -492,8 +487,6 @@ public class DateUtils {
 	/**
 	 * 转化字符串为日期对象
 	 *
-	 * @param date
-	 * @param format
 	 * @return
 	 */
 	public static DateTime parseStrToDateTime(String dateStr) {
@@ -560,14 +553,14 @@ public class DateUtils {
 //		System.out.println(DateOperateUtil.getStrDate(d));
 		
 //		Date d = DateUtils.getDateByStr("2014-01-14 12:22:22");
-//		Date d2 = DateUtils.getDateByStr("2014-04-14 12:22:22");
+		Date d2 = DateUtils.getDateByStr("2014-04-14 12:22:22");
 		System.out.println(DateUtils.getDaysByYearMonth(2015, 10));
 //		System.out.println(DateOperateUtil.compareToTodayZero(d));
 		
 		
 		
 //		System.out.println(d.getTime());
-//		System.out.println(d2.getTime());
+		System.out.println(d2.getTime());
 		System.out.println(getCurrentMonthDay());
 	}
 }
