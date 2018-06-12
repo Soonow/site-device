@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>springboot</groupId>
-	<artifactId>com.yung.common</artifactId>
+	<artifactId>site-common</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com.yung.common</name>
+	<name>site-common</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
